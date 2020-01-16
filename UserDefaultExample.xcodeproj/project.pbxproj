@@ -13,6 +13,7 @@
 		BC2CAB2D23D0344300E2FE1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC2CAB2C23D0344300E2FE1D /* Assets.xcassets */; };
 		BC2CAB3023D0344300E2FE1D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC2CAB2F23D0344300E2FE1D /* Preview Assets.xcassets */; };
 		BC2CAB3323D0344300E2FE1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC2CAB3123D0344300E2FE1D /* LaunchScreen.storyboard */; };
+		BC2CAB3B23D0348900E2FE1D /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2CAB3A23D0348900E2FE1D /* SettingsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		BC2CAB2F23D0344300E2FE1D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BC2CAB3223D0344300E2FE1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC2CAB3423D0344300E2FE1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC2CAB3A23D0348900E2FE1D /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		BC2CAB1A23D0344100E2FE1D = {
 			isa = PBXGroup;
 			children = (
+				BC2CAB3A23D0348900E2FE1D /* SettingsViewModel.swift */,
 				BC2CAB2523D0344100E2FE1D /* UserDefaultExample */,
 				BC2CAB2423D0344100E2FE1D /* Products */,
 			);
@@ -149,6 +152,7 @@
 				BC2CAB2723D0344100E2FE1D /* AppDelegate.swift in Sources */,
 				BC2CAB2923D0344100E2FE1D /* SceneDelegate.swift in Sources */,
 				BC2CAB2B23D0344100E2FE1D /* ContentView.swift in Sources */,
+				BC2CAB3B23D0348900E2FE1D /* SettingsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
